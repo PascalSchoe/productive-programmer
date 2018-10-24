@@ -43,4 +43,4 @@ Es gibt viele mehr....
 
 ## Windows
 ### Shortcuts
-Hier habe ich ein kleines [cheatsheet](downloadtest.txt) zusammen gestellt. zusammen gestellt.
+Hier habe ich ein kleines [cheatsheet](/downloads/downloadtest.txt) zusammen gestellt. zusammen gestellt.
