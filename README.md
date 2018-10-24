@@ -43,8 +43,5 @@ Es gibt viele mehr....
 
 ## Windows
 ### Shortcuts
-Hier habe ich ein kleines [cheatsheet](/downloads/downloadtest.txt) zusammen gestellt. zusammen gestellt.
-{% raw %}
-<a href="/downloads/downloadtest.txt download /> 
-{% endraw %}
+Hier habe ich ein kleines [cheatsheet](/downloads/Level-Design.pdf) zusammen gestellt. zusammen gestellt.
 
