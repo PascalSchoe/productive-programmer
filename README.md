@@ -20,18 +20,42 @@ In diesem Modus wird durch das Dokument navigiert. Durch die ca. 700 Kommandos i
 
 Anfänglich ist ist es recht überwältigend sich zurecht zu finden in der Vim-Welt, aber sie es als Investition! 
 Schnell lernst du das du du keine Pfeiltasten benötigst um den Cursor zu navigieren, wir nutzen einfach <kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>, verrückt oder?  Es ist auch möglich nach Worten, Sätzen, Zeilen, Bildschirm- oder sogar Dokumentbereichen zu navigieren. So kannst du schnell ans Ende oder den Anfang einer Zeile Springen, du kannst Vim auffordern den Cursor im Bildschirm ganz oben, in der Mitte oder ganz Unten zu platzieren.
+
+#### Insert Mode
+Befindet sich der Editor in diesem Modus hast du schreibend die Möglichkeit das Dokument zu verändern.
+
+#### Visual Mode
+In diesem Modus selektierst du Teile des Dokumentes mit denen du im nächsten Schritt arbeiten möchtest.
+Zum Beispiel markierst du einen Teil den du kopieren oder ändern möchtest.
+
 ### Installation
 Vim kannst du [hier](https://www.vim.org/download.php) herunterladen.
 
 Wir werden außerdem Vim als [Plugin](#vim-plugin) in *Eclipse* installieren und somit auch dort in den Genuss seiner Features kommen.
 ### Konfiguration
-[TODO: vimrc]
-#### Vim Shortcuts
-Hier habe ich ein kleines [cheatsheet](./source/downloads/cheatsheet_vim.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen.
+Die Konfiguration des Vim-Editors wird anhand des `.vimrc`-Files vorgenommen.
 
+Hier ist es möglich Key-Mappigs zu verändern, das Aussehen des Editors, in Form von Themes, zu ändern oder sogar Plugins zu integrieren. Du kannst viele Informationen hierzu im Netz finden, du kannst dir fertige `.vimrc`-Files herunterladen oder selbst eines erstellen.
+Hier findest du ein [Beispiel](http://vim.wikia.com/wiki/Example_vimrc) für den Einstieg. 
+
+#### Vim Shortcuts
+Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_vim.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen. Und nicht vergessen "Übung macht den Meister"!
+
+#### Beispiel Aufgabe
+[TODO:]
+Erstellen eines html-dokumentes 
+sdf
+sdf
 ## IDE
 ### Eclipse
 #### Vim-plugin
+Über den *Eclipse-Marketplace* ist es möglich Vim innerhalb von Eclipse zu nutzen.
+So geht's:
+1. "Help">"Eclipse Marketplace..."
+2. Suche nach "Vrapper"
+3. "Install" drücken
+
+Von nun hast du oben in deinem Eclips die Möglichkeit *Vim* mit einem Toggle-Button zu (de)aktivieren.
 ### Eclipse Shortcuts
 
 ## Tastatur
@@ -50,10 +74,10 @@ Es gibt die verschiedensten Tastaturbelegungen, um einige zu nenen:
 ![qwerty](./source/images/QWERTY.png)
 Diese Tastatur ist am weitesten verbreitet und wird im englischsprachigen Raum verwendet.
 
-#### QWERTY
-![qwerty](./source/images/QWERTZ_German.png)
-Bild layout unser Layout das wir kennen und 'lieben?'.
-Meiner Meinung nach ist diese Tastaturbelegung teilweise recht umstänndlich zehnfingertippend zu programmieren. So ist zum Beispiel die geschweifte Klammer '{' recht umständlich über <kbd>Alt Gr</kbd>+<kbd>7</kbd> oder über <kbd>strg</kbd><kbd>alt</kbd>+<kbd>7</kbd> zu tippen.
+#### QWERTZ
+![qwertz](./source/images/QWERTZ_Germany.png)
+Unser Layout das wir kennen und 'lieben?'.
+Meiner Meinung nach ist diese Tastaturbelegung teilweise recht umstänndlich zehnfingertippend zu programmieren. So ist zum Beispiel die geschweifte Klammer '{' recht umständlich über <kbd>Alt Gr</kbd>+<kbd>7</kbd> oder über <kbd>strg</kbd>+<kbd>alt</kbd>+<kbd>7</kbd> zehnfingertippend zu erreichen.
 
 #### Colemak
 ![colemak](./source/images/Colemak.png)
@@ -87,6 +111,7 @@ Mein Skript sieht wie folgt aus:
 !m::Send,{}}
 ```
 AutoHotkey kann noch viel mehr, ich nutze derzeitig aber nur dieses Feature.
+
 [Hier](https://autohotkey.com/docs/Scripts.htm) findest du weitere Informationen.
 
 
