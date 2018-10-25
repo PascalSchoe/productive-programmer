@@ -44,8 +44,7 @@ Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_vim.pdf) zusamme
 #### Beispiel Aufgabe
 [TODO:]
 Erstellen eines html-dokumentes 
-sdf
-sdf
+
 ## IDE
 ### Eclipse
 #### Vim-plugin
@@ -57,6 +56,7 @@ So geht's:
 
 Von nun hast du oben in deinem Eclips die Möglichkeit *Vim* mit einem Toggle-Button zu (de)aktivieren.
 ### Eclipse Shortcuts
+Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_eclipse.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen.
 
 ## Tastatur
 ### Zehnfingersystem
