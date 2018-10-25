@@ -23,9 +23,18 @@ Es gibt die verschiedensten Tastaturbelegungen, um einige zu nenen:
 Es gibt viele mehr....    
 
 
-
 ## Vim 
 ### Was ist Vim?
+Vim ist ein Editor und stellt einen Clone des *vi*-Editors dar, der Name steht für "*Vi iMproved*".
+Vim ist ein modaler Editor, d.h., der Editor unterscheidet zwischen verschiedenen Modi:
+- *Normal*
+- *Insert*
+- *Visual*
+
+Diese Modi gruppieren die verschiedenen Operationen.
+#### Normal Mode
+In diesem Modus wird durch ein Dokument navigiert. Durch die ca. 700 Kommandos ist die Maus theoretisch nicht von Nöten! Aber keine Angst du musst nicht alle beherrschen um klar zu kommen. Bereits mit einer kleinen Untergruppe der Befehle bist du in der Lage dich effizient durch ein Dokument zu bewegen. Unter [Vim Shortcuts](#vim-shortcuts) kannst du diese einsehen.
+Bestreben ist es dem Nutzer die Bedienung lediglich über die Tastatur zu ermöglichen
 ### Installation
 ### Modi
 ### Konfiguration
@@ -41,7 +50,5 @@ Es gibt viele mehr....
 #### Installation
 #### Skripte
 
-## Windows
-### Shortcuts
-Hier habe ich ein kleines [cheatsheet](/downloads/Level-Design.pdf) zusammen gestellt. zusammen gestellt.
+Hier habe ich ein kleines [cheatsheet](./source/downloads/cheatsheet.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen.
 
