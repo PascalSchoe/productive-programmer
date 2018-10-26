@@ -1,14 +1,14 @@
-# Produktivität als Programmierer
-Da wir Programmierer lösungs- und optimierungsorientierte Menschen sind befinden wir uns stetig auf der Suche nach einer Möglichkeit noch mehr aus uns herauszuholen. 
+# ProduktivitÃ¤t als Programmierer
+Da wir Programmierer lÃ¶sungs- und optimierungsorientierte Menschen sind befinden wir uns stetig auf der Suche nach einer MÃ¶glichkeit noch mehr aus uns herauszuholen. 
 Aus einem Zitat von *Elon Musk* :
 > "It's mostly about the bandwidth, the speed of the connection between your brain and the digital version of yourself, particularly output." 
 
-wird klar dass viele Menschen sich mit diesen Problemen beschäftigen.
-Die [Lösung](https://de.wikipedia.org/wiki/Neuralink) die *Musk* anstrebt ist zwar noch 'Zukunftsmusik' aber wir können versuchen unseren Output zu steigern indem wir unsere Tools effizienter nutzen, nachfolgend werde ich auf verschiedene Möglichkeiten eingehen.
+wird klar dass viele Menschen sich mit diesen Problemen beschÃ¤ftigen.
+Die [LÃ¶sung](https://de.wikipedia.org/wiki/Neuralink) die *Musk* anstrebt ist zwar noch 'Zukunftsmusik' aber wir kÃ¶nnen versuchen unseren Output zu steigern indem wir unsere Tools effizienter nutzen, nachfolgend werde ich auf verschiedene MÃ¶glichkeiten eingehen.
 
 ## Vim 
 ### Was ist Vim?
-Vim ist ein Editor und stellt einen Clone des *vi*-Editors dar, der Name steht für "*Vi iMproved*".
+Vim ist ein Editor und stellt einen Clone des *vi*-Editors dar, der Name steht fÃ¼r "*Vi iMproved*".
 Vim ist ein modaler Editor, d.h., der Editor unterscheidet zwischen verschiedenen Modi:
 - *Normal*
 - *Insert*
@@ -16,30 +16,30 @@ Vim ist ein modaler Editor, d.h., der Editor unterscheidet zwischen verschiedene
 
 Diese Modi gruppieren die verschiedenen Operationen.
 #### Normal Mode
-In diesem Modus wird durch das Dokument navigiert. Durch die ca. 700 Kommandos ist die Maus theoretisch nicht mehr von Nöten! Aber keine Angst du musst nicht alle beherrschen um klar zu kommen. Bereits mit einer kleinen Untergruppe der Befehle bist du in der Lage dich effizient durch ein Dokument zu bewegen. Unter [Vim Shortcuts](#vim-shortcuts) kannst du diese einsehen.
+In diesem Modus wird durch das Dokument navigiert. Durch die ca. 700 Kommandos ist die Maus theoretisch nicht mehr von NÃ¶ten! Aber keine Angst du musst nicht alle beherrschen um klar zu kommen. Bereits mit einer kleinen Untergruppe der Befehle bist du in der Lage dich effizient durch ein Dokument zu bewegen. Unter [Vim Shortcuts](#vim-shortcuts) kannst du diese einsehen.
 
-Anfänglich ist ist es recht überwältigend sich zurecht zu finden in der Vim-Welt, aber sie es als Investition! 
-Schnell lernst du das du du keine Pfeiltasten benötigst um den Cursor zu navigieren, wir nutzen einfach <kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>, verrückt oder?  Es ist auch möglich nach Worten, Sätzen, Zeilen, Bildschirm- oder sogar Dokumentbereichen zu navigieren. So kannst du schnell ans Ende oder den Anfang einer Zeile Springen, du kannst Vim auffordern den Cursor im Bildschirm ganz oben, in der Mitte oder ganz Unten zu platzieren.
+AnfÃ¤nglich ist ist es recht Ã¼berwÃ¤ltigend sich zurecht zu finden in der Vim-Welt, aber sie es als Investition! 
+Schnell lernst du das du du keine Pfeiltasten benÃ¶tigst um den Cursor zu navigieren, wir nutzen einfach <kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>, verrÃ¼ckt oder?  Es ist auch mÃ¶glich nach Worten, SÃ¤tzen, Zeilen, Bildschirm- oder sogar Dokumentbereichen zu navigieren. So kannst du schnell ans Ende oder den Anfang einer Zeile Springen, du kannst Vim auffordern den Cursor im Bildschirm ganz oben, in der Mitte oder ganz Unten zu platzieren.
 
 #### Insert Mode
-Befindet sich der Editor in diesem Modus hast du schreibend die Möglichkeit das Dokument zu verändern.
+Befindet sich der Editor in diesem Modus hast du schreibend die MÃ¶glichkeit das Dokument zu verÃ¤ndern.
 
 #### Visual Mode
-In diesem Modus selektierst du Teile des Dokumentes mit denen du im nächsten Schritt arbeiten möchtest.
-Zum Beispiel markierst du einen Teil den du kopieren oder ändern möchtest.
+In diesem Modus selektierst du Teile des Dokumentes mit denen du im nÃ¤chsten Schritt arbeiten mÃ¶chtest.
+Zum Beispiel markierst du einen Teil den du kopieren oder Ã¤ndern mÃ¶chtest.
 
 ### Installation
 Vim kannst du [hier](https://www.vim.org/download.php) herunterladen.
 
-Wir werden außerdem Vim als [Plugin](#vim-plugin) in *Eclipse* installieren und somit auch dort in den Genuss seiner Features kommen.
+Wir werden auÃŸerdem Vim als [Plugin](#vim-plugin) in *Eclipse* installieren und somit auch dort in den Genuss seiner Features kommen.
 ### Konfiguration
 Die Konfiguration des Vim-Editors wird anhand des `.vimrc`-Files vorgenommen.
 
-Hier ist es möglich Key-Mappigs zu verändern, das Aussehen des Editors, in Form von Themes, zu ändern oder sogar Plugins zu integrieren. Du kannst viele Informationen hierzu im Netz finden, du kannst dir fertige `.vimrc`-Files herunterladen oder selbst eines erstellen.
-Hier findest du ein [Beispiel](http://vim.wikia.com/wiki/Example_vimrc) für den Einstieg. 
+Hier ist es mÃ¶glich Key-Mappigs zu verÃ¤ndern, das Aussehen des Editors, in Form von Themes, zu Ã¤ndern oder sogar Plugins zu integrieren. Du kannst viele Informationen hierzu im Netz finden, du kannst dir fertige `.vimrc`-Files herunterladen oder selbst eines erstellen.
+Hier findest du ein [Beispiel](http://vim.wikia.com/wiki/Example_vimrc) fÃ¼r den Einstieg. 
 
 #### Vim Shortcuts
-Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_vim.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen. Und nicht vergessen "Übung macht den Meister"!
+Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_vim.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen. Und nicht vergessen "Ãœbung macht den Meister"!
 
 #### Beispiel Aufgabe
 [TODO:]
@@ -48,21 +48,21 @@ Erstellen eines html-dokumentes
 ## IDE
 ### Eclipse
 #### Vim-plugin
-Über den *Eclipse-Marketplace* ist es möglich Vim innerhalb von Eclipse zu nutzen.
+Ãœber den *Eclipse-Marketplace* ist es mÃ¶glich Vim innerhalb von Eclipse zu nutzen.
 So geht's:
 1. "Help">"Eclipse Marketplace..."
 2. Suche nach "Vrapper"
-3. "Install" drücken
+3. "Install" drÃ¼cken
 
-Von nun hast du oben in deinem Eclips die Möglichkeit *Vim* mit einem Toggle-Button zu (de)aktivieren.
+Von nun hast du oben in deinem Eclips die MÃ¶glichkeit *Vim* mit einem Toggle-Button zu (de)aktivieren.
 ### Eclipse Shortcuts
 Ich habe ein kleines [cheatsheet](./source/downloads/cheatsheet_eclipse.pdf) zusammen gestellt, dieses darfst du dir gerne herunterladen.
 
 ## Tastatur
 ### Zehnfingersystem
-Um den größtmöglichen Vorteil aus unseren mächtigen Tools zu ziehen ist es von Vorteil nicht mehr auf die Tastatur sehen zu müssen und uns somit auf unsere Arbeit konzentrieren zu können! Da wir, dank [vim](#vim), nicht einmal mehr die Maus benötigen geschweige denn die Pfeiltasten können wir all unsere Arbeiten von der Grundstellung <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd> und <kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>ö</kbd> aus erledigen! Wenn wir nun daran arbeiten sicher im [Zehnfingersystem](https://de.wikipedia.org/wiki/Zehnfingersystem) zu werden profitieren wir und unsere Arbeit von den Synergien die sich daraus ergeben!
+Um den grÃ¶ÃŸtmÃ¶glichen Vorteil aus unseren mÃ¤chtigen Tools zu ziehen ist es von Vorteil nicht mehr auf die Tastatur sehen zu mÃ¼ssen und uns somit auf unsere Arbeit konzentrieren zu kÃ¶nnen! Da wir, dank [vim](#vim), nicht einmal mehr die Maus benÃ¶tigen geschweige denn die Pfeiltasten kÃ¶nnen wir all unsere Arbeiten von der Grundstellung <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd> und <kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>Ã¶</kbd> aus erledigen! Wenn wir nun daran arbeiten sicher im [Zehnfingersystem](https://de.wikipedia.org/wiki/Zehnfingersystem) zu werden profitieren wir und unsere Arbeit von den Synergien die sich daraus ergeben!
 
-Folgende Seiten empfehle ich hierfür:
+Folgende Seiten empfehle ich hierfÃ¼r:
 - [typingclub](https://www.typingclub.com/)
 - [tipp10](https://online.tipp10.com/de)
 - [typeracer](https://play.typeracer.com/)
@@ -75,13 +75,13 @@ Es gibt die verschiedensten Tastaturbelegungen, um einige zu nenen:
 Diese Tastatur ist am weitesten verbreitet und wird im englischsprachigen Raum verwendet.
 
 #### QWERTZ
-![qwertz](./source/images/QWERTZ_Germany.png)
+![qwertz](./source/images/QWETZ_Germany.png)
 Unser Layout das wir kennen und 'lieben?'.
-Meiner Meinung nach ist diese Tastaturbelegung teilweise recht umstänndlich zehnfingertippend zu programmieren. So ist zum Beispiel die geschweifte Klammer '{' recht umständlich über <kbd>Alt Gr</kbd>+<kbd>7</kbd> oder über <kbd>strg</kbd>+<kbd>alt</kbd>+<kbd>7</kbd> zehnfingertippend zu erreichen.
+Meiner Meinung nach ist diese Tastaturbelegung teilweise recht umstÃ¤nndlich zehnfingertippend zu programmieren. So ist zum Beispiel die geschweifte Klammer '{' recht umstÃ¤ndlich Ã¼ber <kbd>Alt Gr</kbd>+<kbd>7</kbd> oder Ã¼ber <kbd>strg</kbd>+<kbd>alt</kbd>+<kbd>7</kbd> zehnfingertippend zu erreichen.
 
 #### Colemak
 ![colemak](./source/images/Colemak.png)
-Ist optimiert auf moderne Bedürfnisse und eignet sich besonders für gängige Tastenkürzel. Die Lage der Grundstellung wurde so gewählt um häufige Phrasen schneller tippen zu können.
+Ist optimiert auf moderne BedÃ¼rfnisse und eignet sich besonders fÃ¼r gÃ¤ngige TastenkÃ¼rzel. Die Lage der Grundstellung wurde so gewÃ¤hlt um hÃ¤ufige Phrasen schneller tippen zu kÃ¶nnen.
 
 #### Dvorak
 ![dvorak](./source/images/Dvorak.png)
@@ -94,10 +94,10 @@ Solltest dein [Tastatur Layout](#tastatur-layouts) nicht anpassen wollen oder du
 
 #### Installation
 Lade dir [AutoHotkey](https://autohotkey.com/) herunter.
-Anschließend erstellst du ein `autohotkey.ahk`-Skript. 
+AnschlieÃŸend erstellst du ein `autohotkey.ahk`-Skript. 
 
 #### Skripte
-*AutoHotkey* kommt mit einer eigenen mächtigen Skriptsprache diese wird interpretiert und ermöglicht Vielerlei!
+*AutoHotkey* kommt mit einer eigenen mÃ¤chtigen Skriptsprache diese wird interpretiert und ermÃ¶glicht Vielerlei!
 
 Mein Skript sieht wie folgt aus:
 ```script
